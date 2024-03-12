@@ -24,4 +24,7 @@ def find_outliers_quantile(data, feature, left=0.01, right=0.99):
 
 
 def new_function(a,b):
+    "123
+    
+    "
     pass 
