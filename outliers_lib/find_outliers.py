@@ -1,6 +1,7 @@
 '''
 hjh
 jjjjjjjjjh'''
+import numpy as np
 
 def find_outliers_quantile(data, feature, left=0.01, right=0.99):
     """_summary_
@@ -24,7 +25,6 @@ def find_outliers_quantile(data, feature, left=0.01, right=0.99):
 
 
 def new_function(a,b):
-    "123
-    
-    "
-    pass 
+    return np.log(a+b)
+
+print(new_function(10,8))
